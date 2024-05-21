@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" lang="en">
+<head>
+    <title>Deepak's Protfolio</title>
+    <style>
+
+        body{
+            background-color: beige;
+            block-size: 80%;
+            
+        }
+        .heading{
+            display: auto;
+            justify-content: center;
+            text-align: center;
+            font-family: "Brush Script MT", cursive;
+            font-size: 40px;
+            text-shadow: 2px 3px rgb(255, 255, 255);
+           
+        }
+        .name_heading{
+            margin-top: 50px;
+            display: auto;
+            justify-content: center;
+            text-align: center;
+            font-family: "Brush Script MT", cursive;
+            font-size: 50px;
+            color:rgb(199, 85, 85);
+            text-shadow: 2px 3px rgb(0, 0, 0);
+           
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+    
+        }
+        a{
+            color: rgb(4, 0, 255);
+            text-decoration: none;
+            padding: 10px 10px;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+        }
+        a:hover{
+            color: rgb(255, 133, 239);
+        }
+        li{
+            display:inline;
+        }
+        #salutaion{
+            font-family:"Arial",cursive;
+            font-size: 20px;
+            color:rgba(63, 122, 126, 0.877);
+        }
+    
+
+        .grid-container {
+           
+            margin-left: 13%;
+             display: inline-grid;
+             grid-template-columns: auto 700px;
+            padding: 10px;
+            column-gap: 25px;
+        }
+
+        .grid-item {
+
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+
+        }
+        .footer{
+    position: relative;
+    bottom: 0; left: 0; z-index: 9;
+    background-color: rgb(6, 120, 185);
+    color: white;
+    
+    /* (C2) DIMENSIONS */
+    width: 100%; height: 50px;
+    
+    /* (C3) CENTER TEXT */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Welcome to Deepak's Protfolio page.</h1>
+    <header>
+        <nav class="navigation">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Experience.html">Experience</a></li>
+              <li><a href="Education.html">Educations</a></li>
+              <li><a href="Project.html">Projects</a></li>
+              <li><a href="Skill.html">Skills</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <h1 class="name_heading"><u>Mr. Deepak Kumar</u></h1>
+         
+    </header>
+
+    <div class="grid-container">
+        <div class="grid-item">
+          <img src="https://avatars.githubusercontent.com/u/49164353?v=4" alt="Sorry" style="border-radius: 50%;">
+        </div>
+        <div class="grid-item">
+          <h4 style="color: black;font-style: italic;"><u>Deputy System Administrator</u><br>IT Department<br>IIIT Bhubaneswar - 751003<br>Mail to - <u style="color: blue;">admin@iiit-bh.ac.in / deepakkumar1@iiit-bh.ac.in</u><br>Contact - 06742653410</h4>
+        </div>
+    </div>
+    <footer class="footer">
+        <h4>Copyright@Deepak Kumar<br>@Maintained by Deepak Kumar</h4>
+    </footer>
+    
+</body>
+</html>
