@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" lang="en">
+<head>
+    <title>Deepak's Protfolio</title>
+    <style>
+
+        body{
+            background-color: beige;
+            block-size: 80%;
+            
+        }
+        .heading{
+            display: auto;
+            justify-content: center;
+            text-align: center;
+            font-family: "Brush Script MT", cursive;
+            font-size: 40px;
+            text-shadow: 2px 3px rgb(255, 255, 255);
+           
+        }
+        .name_heading{
+            margin-top: 60px;
+            display: auto;
+            justify-content: center;
+            text-align: center;
+            font-family: "Brush Script MT", cursive;
+            font-size: 50px;
+            color:rgb(199, 85, 85);
+           
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+    
+        }
+        a{
+            color: rgb(4, 0, 255);
+            text-decoration: none;
+            padding: 10px 10px;
+            transition: background-color 0.3s ease;
+            font-size: 18px;
+        }
+        a:hover{
+            color: rgb(255, 133, 239);
+        }
+        li{
+            display:inline;
+        }
+        #salutaion{
+            font-family:"Arial",cursive;
+            font-size: 20px;
+            color:rgba(63, 122, 126, 0.877);
+        }
+    
+
+        .grid-container {
+           
+            margin-left: 13%;
+             display: inline-grid;
+             grid-template-columns: auto 700px;
+            padding: 10px;
+            column-gap: 25px;
+        }
+
+        .grid-item {
+
+  padding: 20px;
+  font-size: 20px;
+  text-align: justify;
+
+        }
+        .footer{
+    position: relative;
+    bottom: 0; left: 0; z-index: 9;
+    background-color: rgb(6, 120, 185);
+    color: white;
+    
+    /* (C2) DIMENSIONS */
+    width: 100%; height: 50px;
+    
+    /* (C3) CENTER TEXT */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Welcome to Deepak's Protfolio page.</h1>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+              <li><a href="Experience.html">Experience</a></li>
+              <li><a href="Education.html">Educations</a></li>
+              <li><a href="Project.html">Projects</a></li>
+              <li><a href="Skill.html">Skills</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <h1 class="name_heading"><u>Projects</u></h1>
+         
+    </header>
+
+    <div class="grid-container">
+        <div class="grid-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxkQELMPab2dwZS_WsJvLI4ulH2QcESRhmuQ&s" alt="Sorry" style="border-radius: 10%; ">
+        </div>
+        <div class="grid-item">
+            <p><b>Project - 1, "Computing Server".<br><br><u style="color: blueviolet;">IDEAS - Technology Innovation Hub.</u></b><br>A server is a system of computation, which provides centralised services to a network of computers. Computers that access the services of a server are called clients. Networks using servers are a kind of client-server, used in networks of medium and large machines (and in networks where the issue of security plays a major role). The term is widely applied to complete
+                computers, but a server may equate to software or parts of a computer system, or even a machine, which is not necessarily a computer.<br><b>Software used - CUDA,NVIDIA GPU,Python,TensorFlow<br>Operating System - Linux</b>
+            </p>
+         </div>
+        <div class="grid-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB7fVgPLxG2DDPCCwFBDQBFkigseeWZk17bw&s" alt="Sorry" style="border-radius: 10%;">
+          </div>
+          <div class="grid-item">
+            <p><b>Project - 2, "Storage Server".<br><br><u style="color: blueviolet;">Machine Intelligence Unit, ISI Kolkata.</u></b><br>A file server is a computer responsible for the storage and management of data files so that other 
+                computers on the same network can access the files. It enables users to share information over 
+                a network without having to physically transfer files.<br><b>Software used - SAMBA, SSH,FTP<br>Operating System - Linux</b>
+            </p>
+          </div>
+    </div>
+    <footer class="footer">
+        <h4>Copyright@Deepak Kumar<br>@Maintained by Deepak Kumar</h4>
+    </footer>
+    
+</body>
+</html>
