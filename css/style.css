@@ -61,11 +61,18 @@ section {
   padding: 1rem;
 }
 
-h1, h2 {
+h1 {
   color: #ffffff;
 }
 
+h2 {
+  color:#333;
+}
+.summary {
 
+  text-align: justify;
+
+}
 
 footer {
   text-align: center;
